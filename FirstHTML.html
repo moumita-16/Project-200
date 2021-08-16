@@ -14,19 +14,19 @@
 	 }
     .box{ width: 900px;
     float:right;
-    border:1px   solid none;}
+    border:1px   solid black;}
 
 
     .box  ul  li{
       width : 120px;
     float :left;
     margin :10px auto;
-    text-align : center-right;
+    text-align : center;
     }
     .box ul li a{  text-decoration: none;
-	 colour: white;}
+	 color: white;}
     .box  ul  li:hover{ background-color: green;}
-    .box  ul  li a:hover{ colour:white;}
+    .box  ul  li a:hover{ color:white;}
 	
 	.wd{
 	    width: 200px;
@@ -69,27 +69,114 @@
 
 </head>
 </body>
+<style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+overflow:hidden;
+background-color: #333;
+}
+
+.navbar a {
+float:left;
+font-size: 16px;
+color:white;
+text-align: center;
+padding: 14px  16px
+text-decoration:none;
+}
+.dropdown {
+float:left;
+overflow:hidden;
+}
+.dropdown  .dropbtn {
+font-size:16px;
+border:none;
+outline:none;
+color:white;
+padding:14px  16px;
+background-color:inherit;
+font-family: inherit;
+margin:0;
+}
+ 
+.navbar  a:hover,  .dropdown:hover
+.dropbtn {
+background-color:rad;
+}
+
+.dropdown-content  {
+display:none;
+position:absolute;
+background-color:#f9f9f9;
+min-width:160px;
+box-shadow:0px  8px  16px  0px rgba(0,0,0,0.2) ;
+z-index:1;
+}
+.dropdown-content a {
+float:none;
+color:black;
+padding:12px  16px;
+text-decoration:none;
+display:block;
+text-align:left;
+}
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+.dropdown:hover  .dropdown-content  {
+display:black;
+}
+</style>
+</head>
 	<div class=“box”>  
 	<ul type="none"> 
-	<li><a href=“ " align="center"><font color="green">Home</a></li
-	<li><a href=“ "align="center"><font color="green">Menu</a></li>
-	<li><a href=“ "align="center"><font color="green">Online Order</a></li>
-	<li><a href=“ "align="center"><font color="green">Team</a></li>
-	<li><a href=“ "align="center"><font color="green">Contact</a></li>
+	<li><a href=“ "color="white">Home</a>
+	<ul>
+	<li><a href=" ">Pizza</a>
+	</ul>
+	</li>
+	<li><a href=“ "color="white">Menu</a>
+	<ul>
+	<li><a href=" ">Veg Pizza Price250Tk</a>
+	<li><a href=" ">Non-Veg Pizza Price350Tk</a>
+	</ul>
+	</li>
+	<li><a href=“ "color="white">Online Order</a>
+	<ul>
+	<li><a href=" ">Veg Pizza Discount15%</a>
+	<li><a href=" ">Non-Veg Pizza Discount20%</a>
+	</ul>
+	</li>
+	<li><a href=“ "color="white">Team</a>
+	<ul>
+	<li><a href=" ">Moumita(The Owner of Tavern)</a>
+	<li><a href=" ">Partnership With Mim</a>
+	<li><a href=" ">1 Manager</a>
+	<li><a href=" ">5 Chiefs</a>
+	<li><a href=" ">8 Waiter</a>
+	</ul>
+	</li>
+	<li><a href=“ "color="white">Contact</a>
+	<ul>
+	<li><a href=" ">Place:BondorBazar,Sylhet,Bangladesh</a>
+	<li><a href=" ">Phone Number:01846953247</a>
+	</li>
 	</ul>
 </div>
- <div class="wd"> 
+<div class="wd"> 
    
 	<h1> Welcome!</h1>
-    
+    <h7>  To...Tavern Restaurant</h7>
 	<h4> Hey!Are you hungry?We are here to serve you.</h4>
    
 	<h2>Reservation</h2>
 	<div class="opt">
 	<form action=" " method="post">
-	   <input type="button" value="start Now">
+	   <input type="button" value="Tavern">
 	</form>
-
 
 </div>
 
